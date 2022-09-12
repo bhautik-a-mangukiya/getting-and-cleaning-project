@@ -8,7 +8,7 @@ Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/g
 3. A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 4. Analysis R Script
 
-##Files
+## Files
 1. CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 2. run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
     a. Merges the training and the test sets to create one data set.
