@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Project
-Author: bhautik a. mangukiya <br />
+This repository is a bhautik a. mangukiya submission for Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset.
 Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data")
 
 ## Goal of the Project
@@ -8,23 +8,14 @@ Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/g
 3. A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 4. Analysis R Script
 
-## Review Criteria
+##Files
+1. CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
+2. run_analysis.R performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
+    a. Merges the training and the test sets to create one data set.
+    b. Extracts only the measurements on the mean and standard deviation for each measurement.
+    c. Uses descriptive activity names to name the activities in the data set
+    d. Appropriately labels the data set with descriptive variable names.
+    f. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+3. FinalData.txt is the exported final data after going through all the sequences described above.
 
-Goal | Item | Link to Item
---- | --- | ---
-Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/run_analysis.R "run_analysis.R")
-Tidy Data Set |  Clean Data Set |  [Data Set Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/data/tidyData.txt "tidyData.txt")
-Github Repo | Repo |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data "Click to go to Repo")
-Cookbook | CodeBook.md |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md "CodeBook.md")
-README | ReadingItNow |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md "README.md")
 
-## Contributors
-
-FirstName | LastName | Email
---- | --- | ---
-Bhautik |  Mangukiya |  <bhautikmangukiya12@gmail.com>
-Submit |  Pull Request | <youremailhere@gmail.com>
-
-## License
-
-Anyone may contribute after this assignment is turned in and graded. 
